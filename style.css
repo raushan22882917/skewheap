@@ -1,0 +1,129 @@
+body {
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #333; /* Changed text color to a darker shade */
+    background-image: url("back.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#container {
+    width: 100%; /* Set maximum width to 100% */
+    text-align: left;
+}
+
+#algoControlSection {
+    background: #6c757d; /* Dark gray background */
+    color: #fff; /* White text */
+    padding: 10px; /* Added padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#generalAnimationControlSection {
+    background: #6c757d; /* Dark gray background */
+    color: #fff; /* White text */
+    max-width: 100%; /* Set maximum width to 100% */
+    padding: 10px; /* Added padding */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Added margin top for spacing */
+}
+
+#header {
+    background: #343a40; /* Dark background color */
+    color: #ffc107; /* Yellow text */
+    padding: 10px; /* Added padding */
+}
+
+#header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+#header a {
+    color: #ffc107; /* Yellow link color */
+    text-decoration: none;
+}
+
+#footer {
+    padding: 10px;
+    background: #343a40; /* Dark background color */
+    color: #ffc107; /* Yellow text */
+}
+
+#footer p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+#mainContent h1,
+#mainContent h2,
+#mainContent h3 {
+    padding: 10px 20px; /* Added padding */
+    background: #f8f9fa; /* Light gray background */
+    color: #007bff; /* Blue heading color */
+}
+
+em {
+    font-weight: bold; /* Changed text decoration to bold */
+}
+
+/* Custom CSS for button styling */
+.btn {
+    /* Add your custom button styles here */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Custom CSS for styling input elements */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"] {
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    font-size: 16px;
+    /* Adjust font size as needed */
+    border: none;
+    border-radius: 5px;
+    background-color: #27a1b7;
+    /* Default button background color */
+    color: #fff;
+    /* Default button text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover state for all input elements */
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="date"]:hover,
+input[type="checkbox"]:hover,
+input[type="radio"]:hover,
+input[type="file"]:hover {
+    background-color: #0056b3;
+    /* Button background color on hover */
+}
