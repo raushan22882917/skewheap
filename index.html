@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skew Heap Visualization</title>
+
+    <!-- Bootstrap CSS -->
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="ThirdParty/jquery-ui-1.8.11.custom.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Your JavaScript files -->
+    <!-- (Assuming these paths are correct) -->
+    <script type="application/javascript" src="AnimationLibrary/CustomEvents.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/UndoFunctions.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/AnimatedObject.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/AnimatedLabel.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/AnimatedCircle.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/AnimatedRectangle.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/AnimatedLinkedList.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/HighlightCircle.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/Line.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/ObjectManager.js"></script>
+    <script type="application/javascript" src="AnimationLibrary/AnimationMain.js"></script>
+    <script type="application/javascript" src="AlgorithmLibrary/Algorithm.js"></script>
+    <script type="application/javascript" src="AlgorithmLibrary/SkewHeap.js"></script>
+
+
+</head>
+
+<body onload="init();" class="VisualizationMainPage">
+
+    <div class="container-fluid h-100">
+
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-md-8">
+
+                <div id="header">
+                    <h1 class="text-center">Skew Heap</h1>
+                </div>
+
+                <div id="algoControlSection" class="mt-4">
+                    <table id="AlgorithmSpecificControls" class="table table-striped">
+                        <!-- Table for buttons to control specific animation (insert/find/etc) -->
+                        <!-- (filled in by javascript code specific to the animation) -->
+                    </table>
+                </div>
+
+                <!-- Drawing canvas where all animation is done.  Note:  can be resized in code -->
+                <canvas id="canvas" width="1000" height="500" class="w-100 mt-4"></canvas>
+
+                <div id="generalAnimationControlSection" class="mt-4">
+                    <table id="GeneralAnimationControls" class="table table-striped">
+                        <!-- Table for buttons to control general animation (play/pause/undo/etc) -->
+                        <!-- (filled in by javascript code, specifically AnimationMain.js)  -->
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+    </div><!-- container-fluid -->
+
+    <!-- Bootstrap JS -->
+</body>
+
+</html>
